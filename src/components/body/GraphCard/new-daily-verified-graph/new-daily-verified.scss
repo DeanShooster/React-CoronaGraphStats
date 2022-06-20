@@ -1,0 +1,25 @@
+
+
+.daily-verified-list-light-theme{
+    display: flex; align-items: center;
+    li{
+        display: flex; align-items: center;
+        margin-left: .5rem; font-size: .9rem;
+        list-style: none;
+    }
+
+    & li:nth-child(1)::before{ content: "•"; font-weight: bold; width: 1rem; font-size: 2rem; color: rgb(80, 203, 253); }
+    & li:nth-child(2)::before{ content: "•"; font-weight: bold; width: 1rem; font-size: 2rem; color: rgb(255, 125, 103); }
+}
+
+.daily-verified-list-dark-theme{
+    display: flex; align-items: center;
+    li{
+        display: flex; align-items: center;
+        margin-left: .5rem; font-size: .9rem;
+        list-style: none;
+    }
+
+    & li:nth-child(1)::before{ content: "•"; font-weight: bold; width: 1rem; font-size: 2rem; color: rgb(80, 203, 253); }
+    & li:nth-child(2)::before{ content: "•"; font-weight: bold; width: 1rem; font-size: 2rem; color: rgb(252, 197, 55); }
+}

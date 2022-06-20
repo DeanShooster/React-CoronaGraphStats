@@ -1,0 +1,11 @@
+
+
+.corona-tests-numbers{
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: flex; justify-content: space-evenly;
+
+    .PCR{ color: rgb(80, 203, 253) }
+
+    p{ background-color: rgb(225, 230, 238); padding: 5px;  border-radius: 15px; outline: 1px solid black;}
+}

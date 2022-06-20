@@ -1,0 +1,10 @@
+
+
+.graph-title-container{
+    display: flex; align-items: center; justify-content: flex-start;
+    position: relative;
+
+    h4{ margin-left: 10px;}
+
+    .graph-title-burger{ margin-right: auto; margin-left: 10px; font-size: 1.25rem; &:hover{ cursor: pointer;}}
+}

@@ -1,0 +1,21 @@
+
+.status-card{
+    min-width: 275px; min-height: 200px;
+    margin-bottom: 20px; padding: 0 0.625rem 0 0; 
+    border-radius: 12px;
+    box-shadow: 0 0 20px 0 rgba(129, 129, 129, 0.408);
+    
+    .status-title{
+        padding: .6rem .25rem .6rem 0;
+        position: relative;
+        display: flex;  align-items: center; justify-content: flex-start;
+    }
+
+    @media(max-width: 1000px){ width: 45%; padding-right: 1.25rem; }
+    @media(max-width: 700px){ width: 70%; padding-right: 1.875rem; }
+    @media(max-width: 500px){ width: 90%; }
+}
+
+.svg-mark{ margin-right: 10px; }
+
+

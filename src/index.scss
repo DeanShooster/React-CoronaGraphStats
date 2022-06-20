@@ -1,0 +1,17 @@
+
+
+.page-scroll-white-theme{
+    &::-webkit-scrollbar{ width: 7px; }
+    &::-webkit-scrollbar-track { background: rgb(246, 243, 243); }
+    &::-webkit-scrollbar-thumb { background: rgb(154, 154, 154); border-radius: 15px; }
+}
+
+.page-scroll-dark-theme{ &::-webkit-scrollbar-track { background: #223039; } }
+
+.dark-theme-root{
+    background-color: #49667a;
+}
+
+.white-theme-root{
+    background-color: #edf1f7;
+}

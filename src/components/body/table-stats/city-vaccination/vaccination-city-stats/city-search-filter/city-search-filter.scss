@@ -1,0 +1,17 @@
+
+
+.search-bar{
+    min-width: 200px; max-width: 100%;
+    position: relative;
+    display: flex; align-items: center; justify-content:space-between;
+    border: 1px solid #d5dce9;  border-radius: 20px;
+    margin: 0 15px 7px 0;
+
+    span{ padding: 0.3rem; font-size: .85rem; }
+
+    .search-bar-arrow{font-size: .85rem;}
+
+    &:focus{ outline: 2px solid black}
+    
+    &:hover{ cursor: pointer;}
+}

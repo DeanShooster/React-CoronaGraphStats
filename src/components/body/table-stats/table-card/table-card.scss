@@ -1,0 +1,21 @@
+
+
+.table-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    h4{
+        padding: 12px;
+        font-size: 1.1rem;
+    }
+
+    .table-svg-mark{
+        position: relative;
+        margin-right: 7px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+
+.week-summary{
+    width: 100%;
+    border-radius: 12px;
+    padding-bottom: 1.2rem;
+
+    .week-summary-title{ padding: 0.625rem 0.625rem 0.625rem 0; }
+
+    .week-summary-container{
+        display: flex; justify-content: space-evenly; flex-wrap: wrap;
+
+        div{ min-width: 23%; }
+
+        .week-stat{ font-weight: bold; font-size: 1.3rem; }
+
+        .week-sub-stat{
+            margin-top: 10px;
+            font-size: .7rem;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            
+            span{ font-weight: bold; }
+        }
+    }
+}

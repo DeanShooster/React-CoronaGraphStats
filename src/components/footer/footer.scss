@@ -1,0 +1,27 @@
+
+footer{
+    width: 97%;
+    display: flex; justify-content: space-evenly;
+    margin-right: 1rem; margin-bottom: 50px;
+
+    @media(max-width: 900px){ flex-flow: column; width: 90%; }
+}
+
+.slogan-card{
+    width: 30%;
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.374);
+    background-color: #fff;
+
+    @media(max-width: 900px){ width: 100%; margin-bottom: 20px; }
+
+    img{ width: 125px; height: 125px; }
+
+    p{ font-size: .9rem; margin:0;  }
+
+    .slogan{ position: relative; padding-right: 5px;}
+
+    .site{ position: absolute; bottom: 0; right: 7; }
+}

@@ -1,0 +1,14 @@
+
+.city-vaccination-container{
+    position: relative;
+    width: 100%;
+    border-radius: 7px;
+
+    .city-vaccination-burger-menu{
+        font-size: 1.4rem;
+        margin-right: auto;
+        padding-left: 7px;
+
+        &:hover{ cursor: pointer; }
+    }
+}

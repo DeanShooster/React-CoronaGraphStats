@@ -1,0 +1,21 @@
+
+.arrow-inline{
+    font-size: 1.5rem;
+    padding-right: 60px;
+}
+
+.intro-animation{
+    p{
+        animation: intro .9s ease-out;
+    }
+}
+
+@keyframes intro{
+    0%{
+        color: transparent;
+        transform: translateX(10%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

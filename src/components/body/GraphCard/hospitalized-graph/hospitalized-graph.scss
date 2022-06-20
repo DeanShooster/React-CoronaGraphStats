@@ -1,0 +1,30 @@
+
+
+.hospitalized-list-light-theme{
+    display: flex; align-items: center;
+    li{
+        display: flex; align-items: center;
+        margin-left: .5rem; font-size: .9rem;
+        list-style: none;
+    }
+
+    & li:nth-child(1)::before{ content: "•"; font-weight: bold;  width: 1rem; font-size: 2rem; color: rgb(80, 203, 253); }
+    & li:nth-child(2)::before{ content: "•"; font-weight: bold; width: 1rem; font-size: 2rem; color: rgb(182, 202, 81); }
+    & li:nth-child(3)::before{ content: "•"; font-weight: bold; width: 1rem; font-size: 2rem; color: rgb(35, 125, 125); }
+}
+
+.hospitalized-list-dark-theme{
+    display: flex; align-items: center;
+    li{
+        display: flex; align-items: center;
+        margin-left: .5rem; font-size: .9rem;
+        list-style: none;
+    }
+
+    & li:nth-child(1)::before{ content: "•"; font-weight: bold;  width: 1rem; font-size: 2rem; color: rgb(80, 203, 253); }
+    & li:nth-child(2)::before{ content: "•"; font-weight: bold; width: 1rem; font-size: 2rem; color: rgb(253, 130, 100); }
+    & li:nth-child(3)::before{ content: "•"; font-weight: bold; width: 1rem; font-size: 2rem; color: rgb(155, 233, 133); }
+}
+
+
+.recharts-text { font-size: .9rem; }

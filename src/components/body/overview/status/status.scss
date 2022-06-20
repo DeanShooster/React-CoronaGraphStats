@@ -1,0 +1,39 @@
+
+.status-container{
+    width: 100%;
+    display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap;
+    margin-bottom: 15px;
+
+    .status-stat{ font-weight: bold; font-size: 1.3rem; }
+
+    .mini-title{ margin: 15px 0 5px 0; font-weight: bold; font-size: 1rem; }
+
+    .sub-stat{
+        font-size: .7rem;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+        span{ font-weight: bold; font-size: .9rem; }
+    }
+
+    .vaccine-dose{
+        margin-left: 15px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: .8rem;
+    }
+
+    .sick-list{
+        margin-bottom: 10px;
+        list-style: none;
+        
+        li:nth-child(1)::before,li:nth-child(2)::before{
+            content: "\2022";
+            display: inline-block;  font-weight: bold;  font-size: 1.1rem; width: 1em; color:red;
+        }
+        li:nth-child(3):before{
+            content: "\2022";
+            display: inline-block; font-weight: bold;  font-size: 1.1rem;  width: 1em; color:rgb(225, 207, 16);
+        }
+    }
+}
+
+

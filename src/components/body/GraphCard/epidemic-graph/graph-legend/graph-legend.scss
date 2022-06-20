@@ -1,0 +1,13 @@
+
+
+.epidemic-graph-legend{
+    font-size: .8rem;
+
+    p{
+        display: flex; align-items: center;
+        span{ margin-right: 5px; padding: 5px;}
+        .info{ font-size: 1.1rem;}
+        .statusR{ font-size: 1.2rem;}
+        .statusR-info{ font-size: 1rem;}
+    }
+}

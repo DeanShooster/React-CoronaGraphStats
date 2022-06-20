@@ -1,0 +1,16 @@
+
+
+.dose-stat-bar{
+    background-color: #e5e4e4;
+    height: .7rem; width: 35px;
+    margin-left: 10px;
+
+    &>p{
+        padding: 0;
+    }
+
+    &>p:hover{
+        cursor: pointer;
+        filter: brightness(110%);
+    }
+}
