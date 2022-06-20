@@ -27,3 +27,5 @@ Additionally the application relies on a backend for dummy data and management f
 <hr>
 
 <h2 align="center">Demo Videos</h2>
+
+https://user-images.githubusercontent.com/92792238/174616224-d5c59fe8-74c9-4b88-80ca-d5e2071fbaed.mp4
