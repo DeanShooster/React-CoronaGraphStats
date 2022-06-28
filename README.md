@@ -19,7 +19,7 @@ Additionally the application relies on a backend for dummy data and management f
 <hr>
 <h2 align="center">Build With</h2>
 
--   [React V6](https://reactjs.org/)
+-   [React](https://reactjs.org/)
 -   [Recharts](https://recharts.org/en-US/api)
 -   [SASS](https://sass-lang.com/)
 -   [JavaScript](https://www.javascript.com/)
